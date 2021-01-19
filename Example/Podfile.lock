@@ -1,0 +1,27 @@
+PODS:
+  - CPTest_Git (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CPTest_Git (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CPTest_Git:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CPTest_Git: a078e05a435a9545ac44708491f0562d6d27533e
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: a52f4a838c33bd8fcc33de6e77e7b50ba2efd69b
+
+COCOAPODS: 1.10.0

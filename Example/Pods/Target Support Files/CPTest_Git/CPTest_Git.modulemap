@@ -1,0 +1,6 @@
+framework module CPTest_Git {
+  umbrella header "CPTest_Git-umbrella.h"
+
+  export *
+  module * { export * }
+}
