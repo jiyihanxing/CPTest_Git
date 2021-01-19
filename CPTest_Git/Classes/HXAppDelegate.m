@@ -7,12 +7,13 @@
 //
 
 #import "HXAppDelegate.h"
-
+#import "Test.h"
 @implementation HXAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    NSLog(@"%@",[Test test:@"application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions"]);
     return YES;
 }
 

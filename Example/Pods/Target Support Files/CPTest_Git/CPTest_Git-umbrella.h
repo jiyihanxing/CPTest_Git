@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "HXAppDelegate.h"
+#import "HXViewController.h"
 #import "Test.h"
 
 FOUNDATION_EXPORT double CPTest_GitVersionNumber;
