@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "Test.h"
 
 FOUNDATION_EXPORT double CPTest_GitVersionNumber;
 FOUNDATION_EXPORT const unsigned char CPTest_GitVersionString[];
