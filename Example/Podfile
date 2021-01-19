@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CPTest_Git_Example' do
+  pod 'CPTest_Git', :path => '../'
+
+  target 'CPTest_Git_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
